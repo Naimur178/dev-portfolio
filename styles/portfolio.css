@@ -28,8 +28,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
-    margin-top: 5px;
+    padding: 50px 200px;
 }
 nav ul{
     display: flex;
@@ -204,7 +203,7 @@ section{
     display: flex;
     gap: 117px;
     background: #FFF8F3;
-    padding-top:  130px;
+    padding-top:  130px ;
 }
 .contact-title{
     font-weight: 700;
@@ -213,4 +212,33 @@ section{
 }
 .contact-description{
     margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+}
+
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+}
+.name{
+    height: 50px;
+    width: 350px;
+}
+.text{
+    width: 350px;
+    height: 150px;
+}
+#submit{
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF; 
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-style: none
+    
+}
+.contact a{
+    padding: 0 10px;
 }
